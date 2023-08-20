@@ -24,6 +24,7 @@ import Project from './layouts/Project';
 import Projectone from './layouts/Projectone';
 import Projecttwo from "./layouts/Projecttwo";
 import Projectthree from './layouts/Projectthree';
+import Projectfour from './layouts/Projectfour';
 import { motion } from 'framer-motion';
 import { fadeInTopVariant } from '../utils/Variants';
 
@@ -66,6 +67,10 @@ const MyProjects = () => {
 
         <PaddingContainer top="5rem" bottom="5rem">
             <Projectthree  rowReverse/>
+        </PaddingContainer>
+
+        <PaddingContainer top="5rem" bottom="5rem">
+            <Projectfour />
         </PaddingContainer>
 
         

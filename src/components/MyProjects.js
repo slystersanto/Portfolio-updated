@@ -30,6 +30,16 @@ import { fadeInTopVariant } from '../utils/Variants';
 
 
 const MyProjects = () => {
+    const userCredentials = "For Demo: user@gmail.com";
+    const userPassword="Password:123456789"
+
+    const paraTextStyle = {
+        border: '1px solid #ccc', /* Add your desired border style */
+  backgroundColor: '', /* Add your desired background color */
+  padding: '10px', /* Add padding for spacing */
+  display: 'inline-block' /* Display inline with border around content */
+      };
+    
   return (
     <PaddingContainer top="5%" bottom="5%" responsiveTop="20%" responsiveLeft="1rem" responsiveRight="1rem">
         <Heading 
@@ -52,6 +62,9 @@ const MyProjects = () => {
         >
             What <BlueText>I have built</BlueText>
         </Heading>
+
+        <ParaText style={paraTextStyle}>{userCredentials}</ParaText>
+        <ParaText style={paraTextStyle}>{userPassword}</ParaText>
 
         <PaddingContainer top="5rem" bottom="5rem">
             <Project />
@@ -81,5 +94,7 @@ const MyProjects = () => {
     </PaddingContainer>
   )
 }
+
+
 
 export default MyProjects

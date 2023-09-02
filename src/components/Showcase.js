@@ -11,7 +11,7 @@ import { fadeInLeftVariant, fadeInRightVariant } from '../utils/Variants';
 const Showcase = () => {
     const linkedinUrl = 'https://www.linkedin.com/in/santh08/';
     const githubUrl = 'https://github.com/slystersanto';
-    const resumeUrl='https://drive.google.com/file/d/1pHSGaSYFIHDYFxBE-4Et9aD-edfI8tw6/view?usp=drive_link'
+    const resumeUrl='https://drive.google.com/file/d/1xMEWfbcxBEID3xtryM2chBmV8R4ZXxUE/view?usp=drive_link'
   return (
     <PaddingContainer left="3%" right="10%" top="10%" bottom="10%" responsiveLeft="1rem" responsiveRight="1rem">
         <FlexContainer align="center" fullWidthChild>
